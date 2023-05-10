@@ -2,6 +2,7 @@
 // let nameString = prompt('What is your name?')
 // let nameLength = nameString.length
 // alert(`Your name has ${nameLength} characters.`)
+
 //STEP 2
 // let numChoice = parseInt(prompt(`Choose a number between 1 and ${nameLength}`)-1)
 // let stringChoice = alert(`You chose the letter: "${nameString.charAt(numChoice)}".`)
@@ -27,6 +28,19 @@
 // alert (originalString.replace('the lazy dog', fullName))
 
 //STEP 7
+// let originalString = 'The quick brown fox jumps over the lazy dog.'
+// let userEntry = prompt('Please enter a word.')
+
+// originalString.search(userEntry) 
+
+// if (originalString.includes(userEntry)) {
+//     alert(`The word ${userEntry} is in the string.`)
+// } else {
+//     alert(`The word ${userEntry} is not in the string`)
+// }
+
+
+
 
 //STEP 8
 // let old_string = 'The quick brown fox jumps over the lazy dog'
