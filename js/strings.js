@@ -1,9 +1,11 @@
 //STEP 1
-// let nameString = prompt('What is your name?')
-// let nameLength = nameString.length
-// alert(`Your name has ${nameLength} characters.`)
+let nameString = prompt('What is your name?')
+let nameLength = nameString.length
+alert(`Your name, ${nameString}, has ${nameLength} characters.`)
 
 //STEP 2
+// let nameString = prompt('What is your name?')
+// let nameLength = nameString.length
 // let numChoice = parseInt(prompt(`Choose a number between 1 and ${nameLength}`)-1)
 // let stringChoice = alert(`You chose the letter: "${nameString.charAt(numChoice)}".`)
  
@@ -31,8 +33,6 @@
 // let originalString = 'The quick brown fox jumps over the lazy dog.'
 // let userEntry = prompt('Please enter a word.')
 
-// originalString.search(userEntry) 
-
 // if (originalString.includes(userEntry)) {
 //     alert(`The word ${userEntry} is in the string.`)
 // } else {
@@ -53,15 +53,8 @@
 
 //STEP 10
 // let lowerCaseString = 'the quick brown fox jumps over the lazy dog'
-
 // let firstCharCap = lowerCaseString.toUpperCase().charAt(0)
-
 // let lowerCaseNew = lowerCaseString.slice(1)
 
 // alert (`The corrected string is:  ${firstCharCap.concat(lowerCaseNew)}.`)
-
-
-
-
-
 

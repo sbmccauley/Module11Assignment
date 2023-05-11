@@ -16,8 +16,6 @@
 // const sentence = 'the quick brown fox jumped over the lazy dog'
 // const intoWords = sentence.split(' ')
 
-
-
 // function capEachWord() {
 //     for (let i=0; i < intoWords.length; i++) {
 //         intoWords[i] = intoWords[i][0].toUpperCase() + intoWords[i].substring(1)
@@ -32,8 +30,6 @@
 //STEP 3
 
 // let anyString = 'Two roads diverged in a yellow wood, and sorry I could not travel both and be one traveler, long  stood and looked down one as far as I could o where it bent in the undergrowth'
-
-
 
 // function getCount(anyString) {
 //     anyString.toLowerCase()
@@ -54,8 +50,9 @@
 
 // function randomString() {
 //     let randStr = ''
+//     let specifiedLength = 10
 //     const lengthLetters = allLetters.length
-//     for (let i = 0; i < 10; i++) {
+//     for (let i = 0; i < specifiedLength; i++) {
 //         randStr += allLetters.charAt(Math.floor(Math.random()*lengthLetters))
 //     }
 //     return randStr
@@ -70,10 +67,8 @@
 //     return  countries.reduce(
 //        function (str1, str2) {
 //           return str1.length > str2.length ? str1 : str2;
-//       }
-//      )
-
-    
-//   }
+//       })
+//  }
 
 //   console.log(`The country with the longest name is: ${getLongestString(countries)}.`)
+
